@@ -139,3 +139,66 @@ button.header-button{
     border-radius: 100px;
     border-style: none;
 }
+
+div.main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+div.projects{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.main-sidebar{
+    background-color: brown ;
+}
+
+div.cards{
+    display:grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+div.card{
+    height: 190px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 8px 1fr;
+}
+
+div.card-color{
+    background-color: gold;
+}
+
+div.card-content{
+    display: grid;
+    grid-template-rows: 42px 1fr 42px; 
+
+    padding-left: 16px;
+}
+
+div.card-title {
+    display: flex;
+    align-items: end;
+    /* position: fixed; */
+    /* bottom: 0px; */
+}
+
+div.card-body{
+    background-color: red;
+}
+
+div.card-icons{
+    background-color: orange;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    justify-content: end;
+    align-items: end;
+    padding-right: 32px;
+    padding-bottom: 12px;
+}
+
+div.card-icon{
+    padding-left: 32px;
+}
