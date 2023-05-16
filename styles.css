@@ -38,6 +38,7 @@ div.main{
     background-color: blue;
     grid-column: 2/8;
     grid-row: 2/9;
+    padding-bottom: 24px;
 }
 
 div.logo{
@@ -201,4 +202,30 @@ div.card-icons{
 
 div.card-icon{
     padding-left: 32px;
+}
+
+div.announcements, div.trending {
+    background-color: gray;
+}
+
+div.announcement-container, div.trending-container{
+    background-color: white;
+    padding-left: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+div.announcement, div.trending-project{
+    background-color: aquamarine;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+div.trending-project{
+    display: flex;
+}
+
+div.user-icon{
+    padding-right: 24px;
+    align-self: center;
 }
